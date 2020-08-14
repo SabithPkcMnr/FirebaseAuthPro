@@ -18,7 +18,7 @@
         android:paddingTop="60dp"
         android:paddingEnd="20dp"
         android:paddingBottom="40dp"
-        android:text="Firebase Auth Pro"
+        android:text="Welcome Aboard!"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
 
@@ -42,40 +42,45 @@
             app:cardCornerRadius="2dp"
             app:cardElevation="12dp">
 
-            <TextView
-                style="@style/TextAppearance.AppCompat.Medium"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="20dp"
-                android:gravity="center"
-                android:text="Mobile OTP Auth"
-                android:textColor="@android:color/black" />
+                android:orientation="vertical">
 
-        </com.google.android.material.card.MaterialCardView>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:paddingTop="40dp"
+                    android:src="@drawable/ic_login_success"
+                    android:text="Mobile OTP Auth"
+                    android:textColor="@android:color/black" />
 
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="20dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?attr/selectableItemBackgroundBorderless"
-            app:cardCornerRadius="2dp"
-            app:cardElevation="12dp">
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Login Success!"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
 
-            <com.google.android.material.textview.MaterialTextView
-                style="@style/TextAppearance.AppCompat.Medium"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="20dp"
-                android:gravity="center"
-                android:text="Email &amp; Password"
-                android:textColor="@android:color/black" />
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginBottom="40dp"
+                    android:gravity="center"
+                    android:text="That means you have successfully configured the app with your Firebase!"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
 
         </com.google.android.material.card.MaterialCardView>
 

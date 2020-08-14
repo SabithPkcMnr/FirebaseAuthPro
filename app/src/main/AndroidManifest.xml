@@ -22,6 +22,11 @@
             android:label="OTP Login"
             android:theme="@style/ThemeAuth" />
 
+        <activity
+            android:name=".ActivitySuccess"
+            android:label="Login Success"
+            android:theme="@style/ThemeAuth" />
+
     </application>
 
 </manifest>
