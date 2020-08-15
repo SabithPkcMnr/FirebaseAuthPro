@@ -1,5 +1,5 @@
 # FirebaseAuthPro
-**This app let you authenticate users identity.**
+**This app let you authenticate users identity and make your app secure online**
 
 <img src="app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" align="left"
 width="100"
