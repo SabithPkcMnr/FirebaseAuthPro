@@ -5,4 +5,4 @@
 width="100"
     hspace="10" vspace="10">
 
-An ultimate Android App for all kind of Firebase Authentication with the goal of helping beginner Android Developers. I have also added some useful comments for some codes and conditions for the auth to work properly. This app will have most of the Firebase auth types such as Email & Password login, OTP, Google Sign-in & more that are offered by Firebase. This app make it easy for the beginners to integrate Firebase Auth into their app.
+An ultimate Android App for all kind of Firebase Authentication with the goal of helping beginner Android Developers. I have also added some useful comments for some codes and conditions for the auth to work properly. This app will have most of the Firebase auth types such as Email & Password login, OTP, Google Sign-in & more that are offered by Firebase. This app make it easy for the beginners to integrate Firebase Auth into their app, I can too use the codes in my future apps.
